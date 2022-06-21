@@ -1,0 +1,119 @@
+body{
+    width: 1400px;
+    background-color: #fff;
+    text-transform: uppercase;
+  background: url(../img/bg3.jpg) no-repeat center center/cover;
+    
+}
+.full{
+    width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    
+}
+.full img{
+    width: 28px;
+    float: left;
+}
+.logo{
+    width: 30%;
+    float: left;
+    margin-top: 22px;
+}
+.logo h1{
+    display: inline;
+    color: rgb(212, 114, 114);
+    font-style: italic;
+}
+.logo h1 span{
+    color:white;
+    font-style: normal;
+
+}
+h5{
+    color: red;
+    padding-left: 77px;
+}
+.nav{
+    width: 70%;
+    float: left;
+}
+.nav nav ul li{
+    display: inline-block;
+    margin-top: 20px;
+    padding-left: 22px;
+    color: rgb(255, 97, 97);
+    font-size: larger;
+}
+.nav nav ul li a{
+  color: red;
+  text-decoration: none;
+  
+}
+.nav nav ul li:hover{
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 12px;
+}
+.main{
+    color: #fff;
+    font-size: 22px;
+    padding:5px 33px;
+    width: 1000px;
+}
+.h1{
+    font-size: 63px;
+    color: rgb(255, 79, 79);
+}
+.cards{
+    width: 800px;
+    height: 400px;
+    margin:5px 0px 5px 144px;
+border: 1px solid gray;
+}
+.cards h1{
+    color: rgb(255, 79, 79);
+    font-size: 33px;
+    text-align: center;
+}
+.cards .img{
+    width: 400px;
+    height: 400px;
+    float: left;
+    box-sizing: border-box;
+}
+.cards .about{
+    width: 400px;
+    height: 400px;
+    float: left;
+    box-sizing: border-box;
+}
+#burger .img{
+    background: url(../img/burger.jpg) center center/cover;
+}
+#pizza .img{
+    background: url(../img/piza.jpg) center center/cover;
+}
+#salad .img{
+    background: url(../img/salad.jpg) center center/cover;
+}
+#Offers .img{
+    background: url(../img/offer.jpg) center center/cover;
+}
+.cards p{
+    color: #fff;
+}
+button{
+font-size: larger;
+border: 1px solid rgb(255, 255, 255);
+border-radius: 9px;
+background: black;
+color: #fff;
+}
+button:hover{
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+}
